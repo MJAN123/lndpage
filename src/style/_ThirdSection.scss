@@ -1,0 +1,25 @@
+.thirdsection {
+  //height: 100%; ( after work then comment for responsive design )
+    width: 100%;
+
+
+    background-image: url('../images/background2.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+
+
+  //after responsive forcefully pushing up
+    margin-top: -6.5rem;
+    @media(max-width: 900px) {
+      margin-top: -8rem;
+    }
+    @media(max-width: 500px) {
+      margin-top: -9rem;
+    }
+    @media(max-width: 350px) {
+      margin-top: -10rem;
+    }
+    @media(max-width: 250px) {
+      margin-top: -10.25rem;
+    }
+}

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Dancing+Script:wght@500&family=Lobster&display=swap');
+@import './_FirstSection.scss';
+@import './_SecondSection.scss';
+@import './_ThirdSection.scss';
+@import './_FourthSection.scss';
+@import './_FifthSection.scss';
+
+
+
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+
+//SEETALERT MODAL
+.swal2-html-container {
+    width: 80%;
+    line-height: 1.2rem;
+    font-size: 0.85rem;
+    margin: 0 auto;
+    margin-top: 0.5rem;
+}
+.swal2-title {
+    font-family: 'Arvo', serif !important;
+    font-size: 1.45rem !important;
+    letter-spacing: 0.015rem !important;
+    word-spacing: 0.05rem !important;
+}
+.swal2-html-container {
+    font-size: 0.85rem !important;
+    text-align: center;
+    width: 90%;
+}
+.swal2-icon.swal2-success {
+    border-color: #004CFF !important;
+    color: #004CFF !important;
+}
+#modalicon {
+    margin-top: 6px;
+    margin-left: 4px;
+    width: 3.65rem !important;
+    height: 2.9rem !important;
+}
+.swal2-confirm {
+    width: 23.75rem !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important; // or none
+    background-color: #004CFF !important;
+}
+.swal2-modal {
+    width: 25rem !important;
+}
+
+
+
+
+
+
+* {
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none;     /* IE 10 and IE 11 */
+    user-select: none;         /* Standard syntax */
+}
+body {
+    background-color: #E5E5E5;
+}
+.fontFam {
+    font-family: 'Arvo', serif !important;
+}
+.root {
+    height: 100%;
+    width: 100%;
+   
+    //FIX
+    overflow-x: hidden;
+}
+
+
+
+
+
+
+@media(max-width: 2000px) {
+    html {
+        font-size: 99%;
+    }
+}
+@media(max-width: 1270px) {
+    html {
+        font-size: 95%;
+    }
+}
+@media(max-width: 1220px) {
+    html {
+        font-size: 90%;
+    }
+}
+@media(max-width: 1050px) {
+    html {
+        font-size: 85%;
+    }
+}
+@media(max-width: 980px) {
+    html {
+        font-size: 82.5%;
+    }
+}
+@media(max-width: 940px) {
+    html {
+        font-size: 80%;
+    }
+}
+@media(max-width: 860px) {
+    html {
+        font-size: 76%;
+    }
+}
+@media(max-width: 760px) {
+    html {
+        font-size: 74%;
+    }
+}
+@media(max-width: 720px) {
+    html {
+        font-size: 72%;
+    }
+}

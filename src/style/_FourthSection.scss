@@ -1,0 +1,12 @@
+.fourthsection {
+  //height: 100%; ( after work then comment for responsive design )
+    width: 100%;
+
+
+    background-color: white;
+
+
+    @media(max-width: 700px) {
+       background-color: transparent;      
+    }
+}
